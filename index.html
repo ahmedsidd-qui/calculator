@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial_scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>GPA Calculator</title>
+  </head>
+  <body>
+    <nav>
+        <h1>Mehran UET GPA Calculator</h1>
+    </nav>
+    <div class="container">
+      <h1>GPA Calculator (Letter Grades)</h1>
+      <label for="subjects">Number of Subjects:</label>
+      <input type="number" id="subjects" required><br>
+    
+      <button onclick="subjects()">Create Subject Fields</button><br><br>
+    
+      <div id="inputs"></div><br>
+    
+      <button onclick="calculateGPA()">Calculate GPA</button>
+      <button onclick="downloadReport()">Download Excel Report</button>
+
+    
+      <label for="gpa_result">GPA:</label>
+      <input type="text" id="gpa_result" readonly><br>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
