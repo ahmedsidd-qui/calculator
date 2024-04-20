@@ -1,7 +1,9 @@
 *{
     margin: 0;
 }
-nav{
+nav,
+footer{
+    text-align: center;
     background-color: #000;
     color: #fff;
 }
@@ -10,7 +12,6 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Optional: Set minimum height for viewport */
-    margin: 0; /* Remove default margin */
+    min-height: 91.7vh; 
+    margin: 0;
   }
-  
